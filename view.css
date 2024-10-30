@@ -1,0 +1,107 @@
+#heatmap_toolbar {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+#heatmap_content {
+	text-align: left;
+	background-color: #000000;
+}
+
+#heatmap_arrow {
+	position: fixed;
+	cursor: pointer;
+	border: 1px outset #CCCCCC;
+	height: 10px;
+        left: 0px;
+        right: 0px;
+	background: #CCCCCC url('images/arrow-down.jpg') center center no-repeat;
+	z-index: 10001;
+}
+
+/*---------- CALENDAR ----------*/
+#heatmap_calendar {
+	display: none;
+	font-family:'Lucida Grande',Verdana,Arial,Sans-Serif;
+	font-size:11px;
+	height:150px;
+	position:absolute;
+	right:2px;
+	text-align:center;
+	top:20px;
+	width:200px;
+	z-index:10001;
+}
+
+#heatmap_calendar div.jcalendar-month {
+	background-color:#777777;
+	color:#EEEEEE;
+	font-weight:bold;
+	margin:0 auto;
+	padding-bottom:1px;
+	width:177px;
+}
+
+#heatmap_calendar div.jcalendar table {
+	background: #a1a5a9;
+	color: #000;
+	margin: .3em auto;
+}
+
+#heatmap_calendar div.jcalendar table th {
+	background:#eee;
+}
+
+#heatmap_calendar div.jcalendar table td {
+	background: #f9f9f9;
+	padding: 0;
+	width: 2.2em;
+}
+
+#heatmap_calendar div.jcalendar table th.weekend {
+	background: #ddd;
+}
+
+#heatmap_calendar div.jcalendar table td.weekend {
+	background: #e9e9e9;
+}
+
+#heatmap_calendar div.jcalendar table td a {
+	color: #333;
+	display: block;
+	line-height: 1.7em;
+	text-align: center;
+	text-decoration: none;
+	width: 2.2em;
+}
+
+#heatmap_calendar div.jcalendar table td.today a {
+	background: #777;
+	border-color: #aaa;
+	color: #fff;
+	font-weight: 700;
+}
+
+#heatmap_calendar div.jcalendar table td a:hover,div.jcalendar table td a:focus,div.jcalendar table td a:active {
+	background: #77b0d3;
+	color: #fff;
+	padding: 0;
+}
+
+#heatmap_calendar div.jcalendar table td a.selected {
+	background: #0072b9;
+	color: #fff;
+}
+
+#heatmap_calendar div.jcalendar-links {
+	margin: .4em;
+	text-align: center;
+}
+
+#heatmap_calendar div.jcalendar-links a {
+	padding: .2em .4em;
+	color: #FFFFFF;
+}
+/*---------- END - CALENDAR ---------- */
